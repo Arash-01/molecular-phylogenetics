@@ -7,7 +7,7 @@ This project performs a phylogenetic analysis of the spike gene from SARS-CoV-2 
 Workflow:
 
 Sequence Download:
-Spike gene sequences were retrieved from NCBI using accession numbers.
+Spike gene sequences were retrieved from NCBI.
 
 Sequence Alignment:
 FASTA sequences were aligned using AliView to identify homologous regions.
