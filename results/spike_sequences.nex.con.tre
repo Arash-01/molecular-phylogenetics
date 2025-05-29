@@ -1,0 +1,22 @@
+#NEXUS
+[ID: 7038390251]
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+		Delta_GBR_2021
+		Omicron_GBR_2022
+		Bat_BetaCoV_YN02_2019
+		Wuhan_MLI_2021
+		Alpha_COL_2021
+		;
+end;
+begin trees;
+	translate
+		1	Delta_GBR_2021,
+		2	Omicron_GBR_2022,
+		3	Bat_BetaCoV_YN02_2019,
+		4	Wuhan_MLI_2021,
+		5	Alpha_COL_2021
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:3.555118e-002[&length_mean=3.56562356e-002,length_median=3.55511800e-002,length_95%HPD={2.73822400e-002,4.43075700e-002}],2[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:2.427051e-002[&length_mean=2.44148761e-002,length_median=2.42705100e-002,length_95%HPD={1.65486400e-002,3.18892200e-002}],(3[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:1.365365e-001[&length_mean=1.37172179e-001,length_median=1.36536500e-001,length_95%HPD={1.14509900e-001,1.63731900e-001}],(4[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:6.691316e-003[&length_mean=6.81627883e-003,length_median=6.69131600e-003,length_95%HPD={3.85469800e-003,9.98705200e-003}],5[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:2.758400e-003[&length_mean=2.89106314e-003,length_median=2.75840000e-003,length_95%HPD={6.13087000e-004,5.16107700e-003}])[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:3.554443e-002[&length_mean=3.56689973e-002,length_median=3.55444300e-002,length_95%HPD={2.05293500e-002,5.12745600e-002}])[&prob=1.00000000e+000,prob_stddev=0.00000000e+000,prob_range={1.00000000e+000,1.00000000e+000},prob(percent)="100",prob+-sd="100+-0"]:3.068121e-001[&length_mean=3.07963378e-001,length_median=3.06812100e-001,length_95%HPD={2.70391300e-001,3.46541000e-001}]);
+end;
