@@ -1,0 +1,11 @@
+This runs a Bayesian phylogenetic inference with the GTR+I+G model, using 1 million generations and 4 chains:
+
+Begin mrbayes;
+
+    lset nst=6 rates=invgamma;
+    prset statefreqpr=dirichlet(1,1,1,1);
+    mcmc ngen=1000000 samplefreq=100 printfreq=1000 nchains=4;
+    sump burnin=2500;
+    sumt burnin=2500;
+
+End;
